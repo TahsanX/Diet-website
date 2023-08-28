@@ -1,2 +1,3 @@
 # Diet-website
-This is a frontend for diet website
+This is a website on diet and diet food products.
+This is made with HTML and CSS
