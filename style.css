@@ -1,0 +1,247 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Caprasimo", cursive !important;
+  font-family: "Fasthand", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Overlock", cursive;
+  font-family: "Pacifico", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.navbar-brand::first-letter {
+  color: orange;
+}
+.navbar-brand:hover {
+  color: rgb(134, 222, 1);
+}
+.nav-link.active {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+.nav-link.active:hover {
+  transform: scale(1.08);
+  transition: 0.5s;
+}
+.search {
+  outline: none;
+  border-radius: 3rem;
+  border: 0.09rem solid crimson;
+  height: 2.5rem;
+}
+.btn.btn-outline-success {
+  color: white;
+  margin-left: -4rem;
+  outline: none;
+  border-radius: 3rem;
+  border: 0.0625rem solid crimson;
+  background-color: crimson;
+  height: 2.5rem;
+  font-weight: 600;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.main {
+  background-image: url(images/bg/bg-1.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.fs-2.text.fw-semibold.my-10 {
+  margin-top: 30rem;
+}
+.card {
+  height: 15rem;
+  border: 0px solid white;
+  width: 20rem;
+  align-items: center;
+  border-radius: 0px;
+  text-align: center;
+}
+.a.card:hover {
+  border-right: 0.09rem solid black;
+}
+.b.card:hover {
+  border-right: 0.09rem solid black;
+}
+.c.card:hover {
+  border-right: 0.09rem solid black;
+}
+.card img {
+  height: 15rem;
+  width: 10rem;
+  align-items: center;
+}
+.container.item .fs-2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.5rem !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0.3rem;
+}
+.container.item {
+  margin-top: 10rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container.item .fs-5 {
+  margin-bottom: 6rem;
+  text-align: center;
+  color: crimson;
+}
+.a1.card,
+.a2.card,
+.a3.card,
+.a4.card {
+  height: 21rem;
+  margin: 0.8rem;
+  background-color: rgba(246, 251, 255, 0.819);
+}
+.a1.card:hover,
+.a2.card:hover,
+.a3.card:hover,
+.a4.card:hover {
+  box-shadow: 0.0625rem 0.0625rem 0.625rem rgb(188, 185, 185);
+  border-top-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  transition: 0.6s ease-in-out;
+}
+.row.text-center {
+  margin-top: 3rem;
+}
+.btn.btn-outline-danger.m-auto.btn-lg.text-center {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-weight: 500;
+  border-radius: 2rem;
+}
+.b1.card,
+.b2.card,
+.b3.card {
+  height: 27rem;
+}
+.b1.card img,
+.b2.card img,
+.b3.card img {
+  width: 15rem;
+  border-radius: 1rem;
+}
+.card-text {
+  width: 15rem;
+}
+p .stretched-link {
+  text-decoration: none;
+  color: rgb(38, 172, 38);
+}
+.food {
+  background-image: url(food-last.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+.food .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  height: 100vh;
+  width: 100%;
+  font-size: 2.5rem;
+}
+.food .container p {
+  font-weight: 400;
+  font-family: "Caprasimo", cursive !important;
+  font-family: "Fasthand", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Overlock", cursive;
+  font-family: "Pacifico", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+p span .w{
+  font-size: 1rem;
+}
+.form .container{
+  margin-top: 5rem;
+  height: 30rem;
+  width: 75%;
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  margin-bottom: 5rem;
+}
+.container .form::first-letter{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: orange;
+}
+.container .form{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+form .row.a{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.footer{
+  background-color: black;
+  width: 100%;
+  /* height: 100lvh; */
+  color: white;
+}
+.container.f{
+  background-color: black;
+  width: 100%;
+  /* height: 100%; */
+  color: white;
+}
+.row.f1{
+  line-height: 7rem;
+  text-align: center;
+  font-size: 2.2rem;
+}
+.row.f2{
+  width: 100%;
+  /* margin-top: 7rem; */
+  margin-bottom: 7rem;
+  display: flex;
+  
+  justify-content: center;
+}
+.btn.btn-outline-light{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.row.f3{
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+}
+.icon.f{
+  font-size: 2rem;
+}
+.row.f4{
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgb(178, 178, 178);
+  font-weight: 400;
+  /* position: absolute;
+  bottom: 50rem; */
+}
+.para{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
